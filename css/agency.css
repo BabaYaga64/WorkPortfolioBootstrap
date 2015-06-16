@@ -1,4 +1,4 @@
-/*!
+!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -7,6 +7,10 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.featurette-image {
+    border-radius: 100%;
 }
 
 .text-muted {
@@ -18,8 +22,8 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 p.large {
@@ -35,7 +39,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #E5BC31;
 }
 
 a:hover,
@@ -230,6 +234,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -239,6 +244,13 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+
+@media(min-width:768px) {
+.featurette-image {
+    float: left;
+    margin-right: 60px;
+}
+}
 
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -321,7 +333,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 section h2.section-heading {
@@ -335,11 +347,17 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
+/* About section for tablet */
 
+@media(min-width:768px) {
+    .featurette-image {
+    float: left;
+    margin: 0 5% 80px 0;
+    }
+}   
 
 .service-heading {
     margin: 15px 0;
@@ -861,4 +879,43 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+/* About section */
+
+
+.lead {
+    font-size: 16px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+    font-weight: 400;
+    }
+
+/* About section MOBILE */
+
+    #about > img {
+        max-width: 350px;
+        margin: 10px auto;
+        display: block;
+    }
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .lead {
+        clear: both;
+        margin-top: 20px;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    #services {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .image {
+        margin: 0 auto;
+    }
 }
