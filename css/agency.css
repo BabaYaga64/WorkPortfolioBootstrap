@@ -325,7 +325,7 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 40px;
     margin-bottom: 15px;
     font-size: 40px;
 }
@@ -339,15 +339,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-.col-lg-12 {
 
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
 
 .service-heading {
     margin: 15px 0;
@@ -430,6 +422,8 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+
+
 
 .timeline {
     position: relative;
