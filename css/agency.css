@@ -353,7 +353,7 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #5F5F5F;
+    color: #4C4C4C;
 }
 
 .service-heading {
@@ -670,7 +670,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #333;
 }
 
 section#contact .form-group {
@@ -881,7 +881,7 @@ body {
 
 
 .aboutme a {
-    color: #478888;
+    color: #009999;
 }
 
 
@@ -892,7 +892,7 @@ body {
 .lead {
     font-size: 16px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #5F5F5F;
+    color: #4C4C4C;
     font-weight: 400;
     }
 
