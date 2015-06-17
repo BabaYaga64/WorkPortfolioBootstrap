@@ -65,7 +65,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #E0EBEB;
+}
+
+#about {
+    background-color: #C2E7E7;
 }
 
 .bg-darkest-gray {
@@ -333,7 +337,8 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 40px 0;
+    padding: 50px 0;
+
 }
 
 section h2.section-heading {
@@ -874,7 +879,7 @@ body {
 
 
 .aboutme a {
-    color: #66C2C2;
+    color: #478888;
 }
 
 
@@ -885,7 +890,7 @@ body {
 .lead {
     font-size: 16px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #777;
+    color: #5F5F5F;
     font-weight: 400;
     }
 
@@ -943,6 +948,12 @@ body {
 @media screen and (min-width: 767px) {
     .lead {
         padding: 15px;
+    }
+}
+
+@media screen and (min-width: 702px) {
+    .lead {
+       padding-bottom: 170px;
     }
 }
 
