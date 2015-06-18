@@ -65,7 +65,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #E0EBEB;
+    background-color: #CCBCAE;
 }
 
 #about {
@@ -191,7 +191,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #FEDF72;
 }
 
 .navbar-default .navbar-collapse {
@@ -310,7 +310,10 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #EBE0D6;
 }
+
+
 
 @media(min-width:768px) {
     header .intro-text {
@@ -342,6 +345,7 @@ section {
 }
 
 section h2.section-heading {
+    color: #333;
     margin-top: 40px;
     margin-bottom: 55px;
     font-size: 40px;
@@ -378,7 +382,8 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    /*background: rgba(254,209,54,.9);*/
+    background-color: #FEDF72;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
