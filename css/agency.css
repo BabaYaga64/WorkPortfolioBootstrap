@@ -183,7 +183,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Lobster","Helvetica Neue", Helvetica,Arial,cursive;
+    font-weight: 400;
     color: #fed136;
 }
 
@@ -238,6 +239,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+#socialmediatop {
+    margin: 0 auto;
+}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -312,8 +316,6 @@ header .intro-text .intro-heading {
     line-height: 50px;
     color: #EBE0D6;
 }
-
-
 
 @media(min-width:768px) {
     header .intro-text {
@@ -919,6 +921,14 @@ body {
         clear: both;
         margin-top: 20px;
         padding: 15px;
+    }
+
+    section h2.section-heading {
+        font-size: 30px; 
+    }
+
+    #contact {
+        padding-bottom: 20px;
     }
 }
 
