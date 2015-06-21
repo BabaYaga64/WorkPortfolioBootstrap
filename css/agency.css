@@ -64,13 +64,19 @@ h6 {
     margin: 0 auto;
 }
 
+
+
 .bg-light-gray {
     background-color: #CCBCAE;
+
+
 }
 
 #about {
     background-color: #C2E7E7;
+
 }
+
 
 .bg-darkest-gray {
     background-color: #222;
@@ -737,8 +743,8 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #E0EBEB;
-
+    /*background-color: #E0EBEB;*/
+    background-color: #CCBCAE;
 }
 
 footer span.copyright {
