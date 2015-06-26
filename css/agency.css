@@ -73,7 +73,8 @@ h6 {
 }
 
 #about {
-    background-color: #C2E7E7;
+    /*background-color: #C2E7E7;*/
+    background-color: #5CAABD;
 
 }
 
@@ -898,7 +899,7 @@ body {
 
 
 .aboutme a {
-    color: #009999;
+    color: #005C5C;
 }
 
 
@@ -909,7 +910,7 @@ body {
 .lead {
     font-size: 16px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #4C4C4C;
+    color: #3D3D3D;
     font-weight: 400;
     }
 
